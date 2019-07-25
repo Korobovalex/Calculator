@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #262626;
+	/*background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);*/
+}
+
+main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+	font: 25px;
+	cursor: pointer;
+	background: #607d8b;
+	color: #ffffff;
+}
+
+.button:hover {
+	background: #7DBCFF;
+}
+
+
+.equal {
+	width: 50px;
+	height: 105px;
+}
+
+.textview {
+	width: 205px;
+	margin: 5px;
+	padding: 5px;
+	font-size: 25px;
+
+}
